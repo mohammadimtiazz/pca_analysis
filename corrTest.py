@@ -100,8 +100,8 @@ print xyCorr
 #the indicate how spread the data is 
 #like data y is more spread then x so we are expecting a higher varience avlue of y compare to x
 spreadingInfo = []
-spreadingInfo.append((np.std(x, axis = 0, ddof = 1))**2)
-spreadingInfo.append((np.std(y, axis = 0, ddof = 1))**2)
+spreadingInfo.append((np.std(x1, axis = 0, ddof = 1))**2)
+spreadingInfo.append((np.std(y1, axis = 0, ddof = 1))**2)
 
 print 'varience of data x and y'
 print spreadingInfo
