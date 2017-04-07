@@ -80,7 +80,7 @@ print xyConCat
 
 xyCorr = np.corrcoef(xyConCat)
 
-print 'covarience matrix of x and y'
+print 'correlation coef  matrix of x and y'
 print xyCorr
 
 #xyCorr always shows diagnoal 1 values as the matrix is normalized.
